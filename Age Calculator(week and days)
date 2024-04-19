@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int week, day,age;
+    cout << "Enter No. of days:";
+    cin >> day;
+
+
+
+    week = (day - 1) / 7 + 1;
+    day = (day - 1) % 7 + 1;
+
+    cout <<"\nWeeks: "<<week<<"\nDays: "<<day << endl;
+
+    cin>>age;
+
+    int ad=age*365 ;
+    cout<<"You have passed "<<ad<<"Days";
+
+
+
+}
