@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x;
+    char grade;
+    cout << "Enter Your Number  :    ";
+    cin >> x;
+    if (x >= 80)
+    {
+        grade = 'A';
+        cout << "your grade is  :  "<<grade;
+    }
+    else if (x >=70)
+    {
+        grade='b';
+        cout << "your grade is  :  "<<grade;
+    }
+    else if (x >=60)
+    {
+        grade='c';
+        cout << "your grade is  :  "<<grade;
+    }
+    else if (x >=50)
+    {
+        grade='d';
+        cout << "your grade is  :   "<<grade;
+    }
+    else if (x >=40)
+    {
+        grade='f';
+        cout << "your grade is   :  "<<grade;
+    }
+    else 
+    {
+       cout<<"Your Are Fail"<<'\t'<<"please go into depression "<<'\t'<<"busted you lose your life... now suicide/kill your self"<<endl;
+    }
+}
